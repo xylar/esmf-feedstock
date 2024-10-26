@@ -21,7 +21,7 @@ source:
     - remove-long-running-tests.patch  # [aarch64 and mpi == 'nompi']
     # Sequence of Windows targeting patches; should be unix compatible
     - 0001-Add-x86_64-machine-id-for-MinGW.gfortran.patch
-    - 0002-Change-long-int-to-long-long-for-Windows-compatibili.patch
+    # - 0002-Change-long-int-to-long-long-for-Windows-compatibili.patch
     - 0003-Deal-with-command-line-length-limitations.patch
     - 0004-Deactivate-ESMF_NETCDF-way-of-specifying-nc-config.patch
     - 0005-Replace-flaky-abspath-script-with-make-s-abspath-fun.patch
